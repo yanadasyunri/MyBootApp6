@@ -8,10 +8,10 @@
 		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>jp.te4a.spring.boot.myapp8</groupId>
-	<artifactId>mybootapp8</artifactId>
+	<groupId>jp.te4a.spring.boot.myapp7</groupId>
+	<artifactId>mybootapp7</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mybootapp8</name>
+	<name>mybootapp7</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -49,6 +49,7 @@
  			<groupId>org.springframework.boot</groupId>
  			<artifactId>spring-boot-starter-thymeleaf</artifactId>
  		</dependency>
+		
 		<dependency>
  			<groupId>org.springframework.boot</groupId>
  			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -58,8 +59,7 @@
  			<artifactId>h2</artifactId>
  			<scope>runtime</scope>
  		</dependency>
-
-	</dependencies>
+		</dependencies>
 
 	<build>
 		<plugins>
